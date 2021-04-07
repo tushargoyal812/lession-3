@@ -5,10 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <!--CSS way 1:style tag
+        <style>
+        body {
+            color: red;
+        }
+    </style>-->
+    <link href="styles.css" rel='stylesheet' />
 </head>
 <body>
-    <h1>Welcome to tushar goyal's component library</h1>
-    <p>I am attending neog.camp and i want to make a library which would make all my projects look good and consistent.</p>
+    <h1 id="lib-header">Welcome to tushar goyal's component library</h1>
+    <!--style="color:red"-->
+    <p class="para">I am attending neog.camp and i want to make a library which would make all my projects look good and consistent.</p>
 
     <hr>
 
@@ -28,7 +36,7 @@
     <div>This is a fluid container and it will go till the end of the page</div>
     
     <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified width</div>
+    <div class="para">This is a centered container and it will go till the specified width</div>
 
     <hr>
 
@@ -91,9 +99,11 @@
     <h2>@header</h2>
 
     <header>
-        <img src="images/hero.svg" />
+        <img src="images/mobile.svg" />
         <h1>Heading inside Header</h1>
     </header>
+
+    <hr>
 
     <h2>@section</h2>
     
@@ -107,6 +117,12 @@
         <h3>off white section</h3>
         <p>this will have gray background</p>
     </section>
+
+    <hr>
+
+    <h2>@footer
+        
+    </h2>
 
     <footer>
         <div>Some small headings inside footers</div>
