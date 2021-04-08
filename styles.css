@@ -13,6 +13,10 @@ body{
 .container{
     padding: 0rem 1rem;
 }
+
+hr{
+    margin: 2rem 0rem;;
+}
     
 
 .center-container{
@@ -24,16 +28,26 @@ body{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
 }
 
 .link-primary{
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
     color: white;
 }
 
 .link-secondary{
     color: var(--primary-color);
-    border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+}
+
+/** lists **/
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 1rem;
 }
