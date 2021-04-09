@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
 :root{
     --primary-color:#6D28D9;
+    --dark-gray: #6B7280;
+    --light-gray: #E5E7EB;
 }
 
 body{
     font-family: 'Ubuntu', sans-serif;
+    font-size: medium;
 }
 
 /** container **/
@@ -58,12 +60,14 @@ hr{
     background-color: var(--primary-color);
     color: white;
    padding: 1rem;
+   border-bottom-left-radius: 1rem;
 }
 
 .navigation .iambrand{
     font-weight: bold;
     font-size: 1.5rem;
 }
+
 
 .navigation .nav-pills{
     text-align: right;
@@ -76,4 +80,41 @@ hr{
 .navigation .link{
     color: white;
     text-align: right;
+}
+
+
+/** header **/
+
+.header{
+    padding: 2rem;
+}
+
+.header .header-image{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.header .header-heading{
+    padding-top: 1rem;
+    text-align: center;
+    color: var(--dark-gray);
+}
+
+.header .header-heading .color{
+    color: var(--primary-color);
+}
+
+.section{
+    padding: 2rem;
+    text-align: center;
+}
+
+.section h1{
+    text-align: center;
+    padding: 1rem;
+}
+    
+.ow{
+    background-color: var(--light-gray);
 }
