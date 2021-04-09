@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
 :root{
     --primary-color:#6D28D9;
+    --dark-gray: #6B7280;
 }
 
 body{
@@ -66,6 +67,7 @@ hr{
     font-size: 1.5rem;
 }
 
+
 .navigation .nav-pills{
     text-align: right;
 }
@@ -78,3 +80,29 @@ hr{
     color: white;
     text-align: right;
 }
+
+
+/** header **/
+
+.header{
+    padding: 2rem;
+}
+
+.header .header-image{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.header .header-heading{
+    padding-top: 2rem;
+    text-align: center;
+    color: var(--dark-gray);
+}
+
+.header .header-heading .color{
+    color: var(--primary-color);
+}
+
+
+    
