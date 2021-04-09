@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
     
-    <link href="styles.css" rel='stylesheet' />
+    <link href="./Component Library_files/styles.css" rel="stylesheet">
 </head>
 <body>
     <h1>Welcome to tushar goyal's component library</h1>
     
-    <p >I am attending neog.camp and i want to make a library which would make all my projects look good and consistent.</p>
+    <p>I am attending neog.camp and i want to make a library which would make all my projects look good and consistent.</p>
 
     <hr>
 
@@ -39,9 +39,9 @@
     <h2>@Links</h2>
 
     <a class="link
-    link-primary" href="/">Primary Link</a>
+    link-primary" href="http://127.0.0.1:5500/">Primary Link</a>
     <a class="link
-    link-secondary"href="/">Secondary Link</a>
+    link-secondary" href="http://127.0.0.1:5500/">Secondary Link</a>
 
     <hr>
 
@@ -60,15 +60,15 @@
     <h3>unordered inline list</h3>
 
     <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline Item One</li class="list-item-inline">
-        <li class="list-item-inline">inline Item Two</li class="list-item-inline">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">inline Item Two</li>
         <li class="list-item-inline">Inline Item Three</li>
     </ul>
 
 
     <h3>reverse ordered list</h3>
 
-    <ol reversed>
+    <ol reversed="">
         <li>milk</li>
         <li>egg</li>
         <li>break</li>
@@ -82,13 +82,13 @@
         <div class="iambrand">iAmBrand</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link link-active" href="/">HOME</a>
+                <a class="link" href="http://127.0.0.1:5500/">HOME</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">products</a>
+                <a class="link link-active" href="http://127.0.0.1:5500/">products</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">about</a>
+                <a class="link" href="http://127.0.0.1:5500/">about</a>
             </li>
         </ul>
     </nav>
@@ -98,7 +98,7 @@
     <h2>@header</h2>
 
     <header>
-        <img src="images/mobile.svg" />
+        <img src="./Component Library_files/mobile.svg">
         <h1>Heading inside Header</h1>
     </header>
 
@@ -141,5 +141,42 @@
 
 </div>
 
-</body>
-</html>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
