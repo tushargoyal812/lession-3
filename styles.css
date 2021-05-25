@@ -157,20 +157,42 @@ hr{
     padding-inline-start: 0px;
 }
 
-.git-image
+.git-image 
 {
-    margin: auto;
     height: 4rem;
+    transition: transform .2s;
+  margin: 0 auto;
+    
+}
+.git-image:hover{
+    -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5);
 }
 
 .twitter-img
 {
-    height: 4rem;;
+    
+    height: 4rem;
+    transition: transform .2s;
+  margin: 0 auto;
+}
+.twitter-img:hover{
+    -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5)
 }
 
 .linkedin-img
 {
     height: 4rem;
+    transition: transform .2s;
+  margin: 0 auto;
+}
+.linkedin-img:hover{
+    -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5)
 }
 .blog
 {
@@ -183,4 +205,11 @@ hr{
 .color{
     color: gray;
     font-weight: bold;
+}
+.link-secondary:hover{
+    background-color:rgba(44, 41, 41, 0.301)
+}
+.link-primary:hover
+{
+    background-color:rgba(84, 12, 94, 0.918);
 }
