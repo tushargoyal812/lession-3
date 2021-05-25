@@ -16,6 +16,9 @@ body{
 .container{
     padding: 0rem 1rem;
 }
+.container h1{
+    text-align: center;
+}
 
 hr{
     margin: 2rem 0rem;;
