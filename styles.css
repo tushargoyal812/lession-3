@@ -122,10 +122,6 @@ hr{
     color: var(--primary-color);
 }
 
-.section{
-    padding: 2rem;
-    
-}
 
 .section h1{
     text-align: center;
@@ -134,7 +130,8 @@ hr{
     
 .ow{
     background-color: var(--light-gray);
-    padding: 1rem;
+   
+
 }
 
 /**footer**/
