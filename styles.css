@@ -121,6 +121,10 @@ hr{
 .header .header-heading .color{
     color: var(--primary-color);
 }
+.section{
+    padding-bottom: 1rem;
+    padding-top: 1rem;;
+}
 
 
 .section h1{
@@ -212,4 +216,7 @@ hr{
 .link-primary:hover
 {
     background-color:rgba(84, 12, 94, 0.918);
+}
+p{
+    text-align: center;
 }
